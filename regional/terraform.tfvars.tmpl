@@ -1,0 +1,4 @@
+  # you can define it in .tfvars, but here, we just simple it
+admin_email = [{% for email in admin_emails %}"{{email}}",{% endfor %}]
+region = "{{current_region}}"
+aws_config_bucket_name = "{{aws_config_bucket_name}}"

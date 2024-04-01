@@ -1,0 +1,7 @@
+{
+    "admin_emails":["someone@my.com"],
+    "account": "123456789012",
+    "region": ["us-east-1", "us-east-2"],
+    "random_str": "uniqueid123",
+    "bucket_prefix": "security-config-for"
+}
